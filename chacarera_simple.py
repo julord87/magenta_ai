@@ -3,7 +3,7 @@ from note_seq.protobuf import music_pb2
 
 print("Generando MIDI de chacarera...")
 
-# Crear secuenciaa
+# Crear secuencia
 sequence = music_pb2.NoteSequence()
 sequence.tempos.add().qpm = 110
 sequence.time_signatures.add(numerator=4, denominator=4)
